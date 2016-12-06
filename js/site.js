@@ -28,6 +28,7 @@ $(function () {
     }
 
     function showTime () {
+      console.log("helloWorld")
       var currentTime = calculateTime();
       $('.box').html('<h1>' + currentTime + '</h1>');
     }
